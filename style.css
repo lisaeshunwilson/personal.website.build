@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 60px;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 250px;
+  height: auto;
+  border-radius: 20px;
+  margin-right: 40px;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.bio {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.social-links img {
+  width: 30px;
+  margin-right: 15px;
+  transition: transform 0.3s;
+}
+
+.social-links img:hover {
+  transform: scale(1.2);
+}
