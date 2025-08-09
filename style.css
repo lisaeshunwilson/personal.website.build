@@ -81,3 +81,48 @@ h1 {
 .icon:hover {
   transform: scale(1.2);
 }
+
+/* Sections */
+.section { padding: 64px 0; }
+.section + .section { border-top: 1px solid #eee; }
+.section h2 {
+  font-size: 2.25rem;
+  margin: 0 0 24px;
+}
+
+/* Speaking */
+.talk { margin-bottom: 8px; }
+.talk-title { font-weight: 600; }
+.talk-meta { color: #666; }
+
+/* News list */
+.news-list { list-style: disc; margin: 0 0 0 1.25rem; padding: 0; }
+.news-list li { margin: 10px 0; line-height: 1.5; }
+
+/* Research cards (image left, text right) */
+.paper {
+  display: grid;
+  grid-template-columns: minmax(220px, 360px) 1fr;
+  gap: 28px;
+  align-items: start;
+  margin-bottom: 40px;
+}
+.paper-thumb { position: relative; display: block; }
+.paper-thumb img {
+  width: 100%; height: auto; border-radius: 12px; display: block;
+}
+.badge {
+  position: absolute; left: 12px; bottom: 12px;
+  font-size: .8rem; background: #000; color: #fff;
+  padding: 6px 10px; border-radius: 999px; opacity: .85;
+}
+.paper-title { font-size: 1.75rem; margin: 0 0 10px; }
+.paper-authors { margin: 0 0 6px; color: #444; }
+.paper-venue { margin: 0 0 8px; color: #666; }
+.pdf-link { display: inline-flex; align-items: center; gap: 8px; }
+.pdf-icon { width: 22px; height: 22px; }
+
+/* Responsive */
+@media (max-width: 900px) {
+  .paper { grid-template-columns: 1fr; }
+}
