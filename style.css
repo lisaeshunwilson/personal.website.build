@@ -14,8 +14,9 @@ body {
 
 .profile-pic {
   width: 250px;
-  height: auto;
-  border-radius: 20px;
+  height: 250px; /* same width & height for a perfect circle */
+  object-fit: cover; /* ensures image fills the circle without distortion */
+  border-radius: 50%;
   margin-right: 40px;
 }
 
