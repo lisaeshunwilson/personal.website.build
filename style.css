@@ -25,14 +25,14 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
 .tagline {
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   font-weight: 500;
-  color: #666;
+  color: #5091c7;
   margin-bottom: 20px;
 }
 
@@ -46,7 +46,7 @@ h1 {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  margin-right: 24px;
+  margin-right: 12px;
 }
 
 .icon {
