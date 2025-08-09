@@ -42,8 +42,17 @@ h1 {
   margin-bottom: 30px;
 }
 
-.bio a {
-  color: #1a4e8a;
+/* Keep bio links the same blue as the tagline and remove underline */
+.bio a,
+.bio a:visited {
+  color: #5091c7;        /* matches your .tagline color */
+  text-decoration: none; /* remove underline */
+}
+
+.bio a:hover,
+.bio a:focus {
+  color: #3f7fb3;        /* optional: slightly darker on hover/focus */
+  text-decoration: none; /* keep it clean */
 }
 
 .social-links a {
