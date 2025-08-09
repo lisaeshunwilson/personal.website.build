@@ -44,11 +44,6 @@ h1 {
 
 .bio a {
   color: #1a4e8a;
-  text-decoration: underline;
-}
-
-.bio a:hover {
-  color: #163d6d; /* darker blue on hover */
 }
 
 .social-links a {
