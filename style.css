@@ -86,7 +86,7 @@ h1 {
 .section { padding: 64px 0; }
 .section + .section { border-top: 1px solid #eee; }
 .section h2 {
-  font-size: 1rem;
+  font-size: 1.75rem;
   margin: 0 0 24px;
 }
 
@@ -97,7 +97,7 @@ h1 {
 
 /* News list */
 .news-list { list-style: disc; margin: 0 0 0 1.25rem; padding: 0; }
-.news-list li { margin: 10px 0; line-height: 1.5; }
+.news-list li { margin: 10px 0; line-height: 1; }
 
 /* Research cards (image left, text right) */
 .paper {
@@ -116,7 +116,7 @@ h1 {
   font-size: .8rem; background: #000; color: #fff;
   padding: 6px 10px; border-radius: 999px; opacity: .85;
 }
-.paper-title { font-size: 1.75rem; margin: 0 0 10px; }
+.paper-title { font-size: 1.15rem; margin: 0 0 10px; }
 .paper-authors { margin: 0 0 6px; color: #444; }
 .paper-venue { margin: 0 0 8px; color: #666; }
 .pdf-link { display: inline-flex; align-items: center; gap: 8px; }
@@ -133,10 +133,6 @@ h1 {
   margin: 0 auto;         /* center the page */
   padding: 0 64px;        /* same inset as your hero’s left edge */
 }
-
-/* Make hero/sections use the container spacing */
-.hero { padding-top: 48px; padding-bottom: 32px; }
-.section { padding: 48px 0; }
 
 /* Global link styles */
 a,
