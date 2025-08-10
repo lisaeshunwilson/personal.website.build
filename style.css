@@ -13,8 +13,8 @@ body {
 }
 
 .profile-pic {
-  width: 250px;
-  height: 250px; /* same width & height for a perfect circle */
+  width: 200px;
+  height: 200px; /* same width & height for a perfect circle */
   object-fit: cover; /* ensures image fills the circle without distortion */
   border-radius: 50%;
   margin-right: 40px;
@@ -59,7 +59,7 @@ h1 {
 .social-links {
   display: flex;
   align-items: center;
-  gap: 6px;         /* adjust: 6 → 4 for tighter, 8 for looser */
+  gap: 7px;         /* adjust: 6 → 4 for tighter, 8 for looser */
 }
 
 /* Each link */
@@ -137,3 +137,15 @@ h1 {
 /* Make hero/sections use the container spacing */
 .hero { padding-top: 48px; padding-bottom: 32px; }
 .section { padding: 48px 0; }
+
+/* Global link styles */
+a,
+a:visited {
+  color: #5091c7;        /* matches your tagline blue */
+  text-decoration: none; /* remove underline */
+}
+
+/* Optional: hover effect for better UX */
+a:hover {
+  text-decoration: underline; /* or change color if you prefer */
+}
