@@ -97,7 +97,7 @@ h1 {
 
 /* News list */
 .news-list { list-style: disc; margin: 0 0 0 1.25rem; padding: 0; }
-.news-list li { margin: 10px 0; line-height: 1; }
+.news-list li { margin: 10px 0; line-height: 1.25; }
 
 /* Research cards (image left, text right) */
 .paper {
@@ -120,7 +120,7 @@ h1 {
 .paper-authors { margin: 0 0 6px; color: #444; }
 .paper-venue { margin: 0 0 8px; color: #666; }
 .pdf-link { display: inline-flex; align-items: center; gap: 8px; }
-.pdf-icon { width: 22px; height: 22px; }
+.pdf-icon { width: 80px; height: 80px; }
 
 /* Responsive */
 @media (max-width: 900px) {
