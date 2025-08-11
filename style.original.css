@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 60px;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px; /* same width & height for a perfect circle */
+  object-fit: cover; /* ensures image fills the circle without distortion */
+  border-radius: 50%;
+  margin-right: 40px;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #5091c7;
+  margin-bottom: 20px;
+}
+
+.bio {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Keep bio links the same blue as the tagline and remove underline */
+.bio a,
+.bio a:visited {
+  color: #5091c7;        /* matches your .tagline color */
+  text-decoration: none; /* remove underline */
+}
+
+.bio a:hover,
+.bio a:focus {
+  color: #3f7fb3;        /* optional: slightly darker on hover/focus */
+  text-decoration: none; /* keep it clean */
+}
+
+/* Social icons row */
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 7px;         /* adjust: 6 → 4 for tighter, 8 for looser */
+}
+
+/* Each link */
+.social-links a {
+  margin: 0;        /* no extra spacing per item */
+}
+
+/* The icons */
+.social-links img,
+.icon {
+  width: 28px;
+  height: 28px;
+  margin: 0;        /* remove old right margin */
+  vertical-align: middle;
+  transition: transform 0.3s;
+}
+
+.social-links img:hover,
+.icon:hover {
+  transform: scale(1.2);
+}
+
+/* Sections */
+.section { padding: 64px 0; }
+.section + .section { border-top: 1px solid #eee; }
+.section h2 {
+  font-size: 1.75rem;
+  margin: 0 0 24px;
+}
+
+/* Speaking */
+.talk { margin-bottom: 8px; }
+.talk-title { font-weight: 600; }
+.talk-meta { color: #666; }
+
+/* News list */
+.news-list { list-style: disc; margin: 0 0 0 1.25rem; padding: 0; }
+.news-list li { margin: 10px 0; line-height: 1.25; }
+
+/* Research cards (image left, text right) */
+.paper {
+  display: grid;
+  grid-template-columns: minmax(220px, 360px) 1fr;
+  gap: 28px;
+  align-items: start;
+  margin-bottom: 40px;
+}
+.paper-thumb { position: relative; display: block; }
+.paper-thumb img {
+  width: 100%; height: auto; border-radius: 12px; display: block;
+}
+.badge {
+  position: absolute; left: 12px; bottom: 12px;
+  font-size: .8rem; background: #000; color: #fff;
+  padding: 6px 10px; border-radius: 999px; opacity: .85;
+}
+.paper-title { font-size: 1.15rem; margin: 0 0 10px; }
+.paper-authors { margin: 0 0 6px; color: #444; }
+.paper-venue { margin: 0 0 8px; color: #666; }
+.pdf-link { display: inline-flex; align-items: center; gap: 8px; }
+.pdf-icon { width: 80px; height: 80px; }
+
+/* Responsive */
+@media (max-width: 900px) {
+  .paper { grid-template-columns: 1fr; }
+}
+
+/* Page container: aligns all content and adds side padding */
+.container {
+  max-width: 1100px;      /* adjust to taste */
+  margin: 0 auto;         /* center the page */
+  padding: 0 64px;        /* same inset as your hero’s left edge */
+}
+
+/* Global link styles */
+a,
+a:visited {
+  color: #5091c7;        /* matches your tagline blue */
+  text-decoration: none; /* remove underline */
+}
+
+/* Optional: hover effect for better UX */
+a:hover {
+  text-decoration: underline; /* or change color if you prefer */
+}
