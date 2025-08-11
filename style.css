@@ -91,3 +91,8 @@ h1 { font-size: 1.75rem; margin: 0 0 10px; font-weight: 700; }
   font-size: 1rem; /* Match paper text size */
   line-height: 1.5;
 }
+
+/* === Hero section customizations === */
+.hero .bio {
+  font-weight: 300; /* thin text */
+}
