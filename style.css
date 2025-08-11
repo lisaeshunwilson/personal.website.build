@@ -82,3 +82,12 @@ h1 { font-size: 1.75rem; margin: 0 0 10px; font-weight: 700; }
   .container { padding: 0 20px; }
   .paper { grid-template-columns: 1fr; }
 }
+
+/* Apply Helvetica Neue Thin style to bio and news filler text */
+.bio p,
+.news-list li {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300; /* Thin */
+  font-size: 1rem; /* Match paper text size */
+  line-height: 1.5;
+}
