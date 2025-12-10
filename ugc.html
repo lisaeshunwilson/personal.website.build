@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yoga with Lisa</title>
+  <link rel="icon" href="images/favicon.png">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Adobe Fonts -->
+  <link rel="stylesheet" href="https://use.typekit.net/uwl6zhw.css">
+  <title>Yoga with Lisa</title>
+  
+<!-- Favicons -->
+<link rel="icon" href="/favicon.ico" sizes="any"> <!-- classic fallback -->
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#1a1a1a">
+<meta name="theme-color" content="#ffffff">
+  
+<link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500;1,700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- Memberstack webflow package -->
+<script data-memberstack-app="app_cmfs64j5s00jl0wu4h1ee40in" src="https://static.memberstack.com/scripts/v1/memberstack.js" type="text/javascript"></script>
+
+<!-- Open Graph Meta Tags -->
+<meta property="og:title" content="UGC with Lisa">
+<meta property="og:description" content="High-quality content to promote high-quality products.">
+<meta property="og:image" content="https://www.yogawithlisa.ai/images/ugc.jpg">
+<meta property="og:url" content="https://www.yogawithlisa.ai/ugc.html">
+<meta property="og:type" content="website">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="UCG with Lisa">
+<meta name="twitter:description" content="High-quality content to promote high-quality products.">
+<meta name="twitter:image" content="https://www.yogawithlisa.ai/images/ugc.jpg">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="ugc.html">user generated content</a>     
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="login.html" class="login-btn">BACK TO YOGA</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero (image) -->
+  <section class="hero hero--image" role="banner" aria-label="Hero">
+    <!-- Set your image at images/hero-ugc.jpg -->
+    <div class="hero-media" style="background-image:url('images/hero-ugc.jpg');" aria-hidden="true"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="hero-inner">
+      <h1 class="display">
+  	<span class="nowrap">Promote <em>your</em> products today.</span><br/>
+  	And to your <em>dream</em> audience.  
+      </h1>
+
+  <div class="ugc-social-icons">
+  <a href="https://www.tiktok.com/@yogawithlisa" target="_blank" class="icon-btn">
+    <img src="images/icons/tiktok.svg" alt="TikTok">
+  </a>
+
+  <a href="https://twitter.com/yogawithlisa" target="_blank" class="icon-btn">
+    <img src="images/icons/x-twitter.svg" alt="Twitter/X">
+  </a>
+
+  <a href="mailto:lisaeshunwilson@gmail.com?subject=UGC%20Collaboration%20Inquiry" class="icon-btn">
+    <img src="images/icons/email.svg" alt="Email">
+  </a>
+</div>  
+
+   </a>
+   </div>
+    </div>
+  </section>
+
+  <!-- Minimal Intro -->
+  <section class="intro container">
+    <h2>Today is a beautiful day to make content.</h2>
+    <p style="margin-bottom: 1.5em; line-height: 1.6; text-align: justify;">
+    Hi, I’m Lisa — a UGC creator and yoga instructor crafting content at the intersection of wellness, movement, and modern technology. I partner with brands in athletic wear, skincare, feminine wellness, travel gear, tech gadgets, and AI tools that genuinely elevate everyday life. My content blends authenticity, science-backed storytelling, and an eye for clean, calming visuals. Explore my featured work below. I’d love to collaborate.  
+    </p>
+  </section>
+
+<!-- Sticky taupe nav on scroll (diagnostic version) -->
+<script>
+  (function () {
+    const header = document.querySelector('.site-header');
+    if (!header) return;
+
+    const getY = () =>
+      window.pageYOffset ||
+      document.documentElement.scrollTop ||
+      document.body.scrollTop || 0;
+
+    const apply = (y) => {
+      const on = y > 50;
+      header.classList.toggle('scrolled', on);
+      header.dataset.scrolled = on; // handy for inspecting
+    };
+
+    const onScroll = () => apply(getY());
+    window.addEventListener('scroll', onScroll, { passive: true });
+    document.addEventListener('scroll', onScroll, { passive: true, capture: true });
+
+    let last = -1;
+    (function tick(){
+      const y = getY();
+      if (y !== last) { apply(y); last = y; }
+      requestAnimationFrame(tick);
+    })();
+
+    apply(getY());
+  })();
+</script>
+
+<!-- =================== UGC Phone Reel Strip =================== -->
+<section class="ugc-showcase container" aria-label="UGC video styles">
+  <h2 class="visually-hidden">UGC Video Styles</h2>
+
+  <div class="ugc-reel-grid">
+
+    <!-- YOGA -->
+    <article class="ugc-reel">
+      <div class="ugc-label">YOGA</div>
+      <div class="ugc-phone">
+        <!-- Replace src + poster with your yoga reel -->
+        <video class="ugc-video"
+               src="videos/ugc-yoga.mp4"
+               poster="images/ugc-yoga-poster.jpg"
+               playsinline
+               muted
+               controls>
+        </video>
+        <img src="images/phone-frame.png"
+             alt=""
+             class="ugc-phone-frame"
+             aria-hidden="true">
+      </div>
+    </article>
+
+    <!-- SKIN -->
+    <article class="ugc-reel">
+      <div class="ugc-label">SKIN</div>
+      <div class="ugc-phone">
+        <video class="ugc-video"
+               src="videos/ugc-skin.mp4"
+               poster="images/ugc-skin-poster.jpg"
+               playsinline
+               muted
+               controls>
+        </video>
+        <img src="images/phone-frame.png"
+             alt=""
+             class="ugc-phone-frame"
+             aria-hidden="true">
+      </div>
+    </article>
+
+    <!-- TRAVEL -->
+    <article class="ugc-reel">
+      <div class="ugc-label">TRAVEL</div>
+      <div class="ugc-phone">
+        <video class="ugc-video"
+               src="videos/ugc-travel.mp4"
+               poster="images/ugc-travel-poster.jpg"
+               playsinline
+               muted
+               controls>
+        </video>
+        <img src="images/phone-frame.png"
+             alt=""
+             class="ugc-phone-frame"
+             aria-hidden="true">
+      </div>
+    </article>
+
+    <!-- APPS -->
+    <article class="ugc-reel">
+      <div class="ugc-label">APPS</div>
+      <div class="ugc-phone">
+        <video class="ugc-video"
+               src="videos/ugc-apps.mp4"
+               poster="images/ugc-apps-poster.jpg"
+               playsinline
+               muted
+               controls>
+        </video>
+        <img src="images/phone-frame.png"
+             alt=""
+             class="ugc-phone-frame"
+             aria-hidden="true">
+      </div>
+    </article>
+
+    <!-- HIKE -->
+    <article class="ugc-reel">
+      <div class="ugc-label">HIKE</div>
+      <div class="ugc-phone">
+        <video class="ugc-video"
+               src="videos/ugc-hike.mp4"
+               poster="images/ugc-hike-poster.jpg"
+               playsinline
+               muted
+               controls>
+        </video>
+        <img src="images/phone-frame.png"
+             alt=""
+             class="ugc-phone-frame"
+             aria-hidden="true">
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- =================== UGC Offer Banner =================== -->
+<section class="membership" aria-label="membership">
+  <div class="membership-media" style="background-image:url('images/membership.jpg')"></div>
+  <div class="membership-overlay"></div>
+  <div class="membership-inner container">
+    <h2>Why work with me?</h2>
+    <p>
+       Blend movement, wellness, and lifestyle to create content that feels calming, beautiful, and emotionally resonant.    
+    </p>
+    <p>
+    With a PhD in molecular biology + yoga teacher training, I bring credibility and integrity to wellness-focused brands.
+	</p>
+    <p>
+      My natural-light, clean, minimalist aesthetic aligns with modern wellness, beauty, and lifestyle brands.
+    </p>
+    <p>
+      My natural-light, clean, minimalist aesthetic aligns with modern wellness, beauty, and modern-living brands. 
+    </p>
+    <p>
+      Fast turnaround, clear communication, and content designed to convert, all while staying authentic to your brand voice.
+    </p>
+    <a class="btn btn-pill btn-outline" href="mailto:lisaeshunwilson@gmail.com?subject=UGC%20Collaboration%20Inquiry">LET'S CHAT</a>
+  </div>
+</section>
+
+<!-- =================== Instagram Carousel =================== -->
+<section class="ig card" aria-label="Instagram">
+  <div class="ig-head">
+    <h3>you + lisa</h3>
+    <a class="btn btn-pill btn-outline" href="https://instagram.com/yogawithlisa.ai/" target="_blank" rel="noopener">
+      FIND US ON SOCIAL
+    </a>
+  </div>
+
+  <div class="ig-wrap">
+    <button class="ig-nav ig-prev" aria-label="Previous">‹</button>
+
+    <div class="ig-track" id="igTrack">
+      <!-- Replace these image paths with your own (local images or CDN) -->
+      <a class="ig-card" href="#" aria-label="Instagram post 1">
+        <img src="images/ugc/ug1.jpg" alt="Yoga with Lisa — post 1" />
+      </a>
+      <a class="ig-card" href="#" aria-label="Instagram post 2">
+        <img src="images/ugc/ug2.jpg" alt="Yoga with Lisa — post 2" />
+      </a>
+      <a class="ig-card" href="#" aria-label="Instagram post 3">
+        <img src="images/ug/ug3.jpg" alt="Yoga with Lisa — post 3" />
+      </a>
+      <a class="ig-card" href="#" aria-label="Instagram post 4">
+        <img src="images/ug/ug4.jpg" alt="Yoga with Lisa — post 4" />
+      </a>
+      <a class="ig-card" href="#" aria-label="Instagram post 5">
+        <img src="images/ug/ug5.jpg" alt="Yoga with Lisa — post 5" />
+      </a>
+    </div>
+
+    <button class="ig-nav ig-next" aria-label="Next">›</button>
+  </div>
+</section>
+
+<!-- =================== Founder Banner =================== -->
+<section class="founder message" aria-label="Our founder">
+  <div class="founder-media" style="background-image:url('images/founder.jpg')"></div>
+  <div class="founder-overlay"></div>
+  <div class="founder-inner container">
+    <h2>meet the founder</h2>
+    <p>
+      Dr. Lisa Eshun-Wilson receieved her PhD in Molecular and Cell Biology from UC Berkeley and currently works at the intersection of biology and AI. She was born in Bergen, Norway, grew up in LA and now lives in the Bay Area. She loves to travel and has family all over the world, including the Czech Republic, Ghana, Norway, Australia, South Africa, and Canada. Her passion for science, health, travel and tech inspired her to not only <em>practice</em> yoga but also to <em>promote</em> products, tech and AI tools that support intentional and mindful living. Her mission? Create content that she is passionate about and showcases amazing products to the larger community.
+    </p>
+    <a class="btn btn-pill btn-outline" href="founder.html">LISA THE YOGI</a>
+  </div>
+</section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="y"></span> YOGA WITH LISA BY LISA ESHUN-WILSON & ASSOCIATES,LLC. / ALL RIGHTS RESERVED</p>
+    </div>
+  </footer>
+
+<div class="container" style="padding: 0 16px;">
+  <!-- membership section here -->
+</div>
+
+<div class="container" style="padding: 0 16px;">
+  <!-- founder section here -->
+</div>
+
+</body>
+</html>
