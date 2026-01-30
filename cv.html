@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CV / NIH Biosketch — Lisa Eshun‑Wilson</title>
+  <style>
+    :root{
+      --page-width: 8.5in;
+      --page-min-height: 11in;
+      --ink:#111;
+      --rule:#333;
+      --muted:#444;
+    }
+    html,body{margin:0;padding:0;background:#f3f4f6;color:var(--ink);}
+    body{font-family: "Times New Roman", Times, serif; line-height:1.22;}
+    a{color:#0b57d0; text-decoration:none;}
+    a:hover{text-decoration:underline;}
+
+    /* Top site nav (optional) */
+    .topbar{
+      display:flex; align-items:center; justify-content:space-between;
+      padding:14px 18px; background:#fff; border-bottom:1px solid #e5e7eb;
+      position:sticky; top:0; z-index:10;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    }
+    .topbar .left{display:flex; gap:14px; align-items:center;}
+    .pill{
+      display:inline-flex; align-items:center; gap:10px;
+      padding:8px 12px; border:1px solid #e5e7eb; border-radius:999px;
+      background:#fff;
+      font-size:14px;
+    }
+    .pdficon{
+      width:18px; height:18px; display:inline-block;
+    }
+    .spacer{flex:1;}
+
+    /* Page look (PDF-like) */
+    .page{
+      width: min(var(--page-width), calc(100vw - 24px));
+      min-height: var(--page-min-height);
+      margin: 18px auto 28px;
+      background:#fff;
+      box-shadow: 0 10px 30px rgba(0,0,0,.10);
+      padding: .55in .65in .55in .65in;
+    }
+    .center{text-align:center;}
+    .small{font-size:12px; color:var(--muted);}
+    .h1{font-size:18px; font-weight:700; letter-spacing:.4px; margin:10px 0 6px;}
+    .rule{border-top:1px solid var(--rule); margin:8px 0;}
+    .kv{
+      display:flex; gap:10px; align-items:baseline;
+      border-top:1px solid var(--rule);
+      padding:6px 0;
+      font-size:13px;
+    }
+    .kv:first-of-type{border-top:0;}
+    .kv .k{min-width: 310px; font-weight:700;}
+    .kv .v{flex:1;}
+    .section-title{
+      font-weight:700; margin:14px 0 6px;
+      font-size:14px;
+    }
+    .subtle-rule{border-top:1px solid var(--rule); margin:6px 0 10px;}
+    table{
+      width:100%;
+      border-collapse:collapse;
+      font-size:13px;
+    }
+    th,td{
+      border:1px solid var(--rule);
+      padding:6px 7px;
+      vertical-align:top;
+    }
+    th{font-weight:700;}
+    .nowrap{white-space:nowrap;}
+    .para{font-size:13px; margin:0 0 10px;}
+    .indent{margin-left:16px;}
+    .bullets{margin:0 0 10px 18px; padding:0; font-size:13px;}
+    .bullets li{margin:2px 0;}
+    .mono{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;}
+    .footnote{font-size:12px; color:var(--muted); margin-top:14px;}
+
+    @media print{
+      body{background:#fff;}
+      .topbar{display:none;}
+      .page{box-shadow:none; margin:0; width:auto; min-height:auto; padding:.55in .65in;}
+      a{color:inherit; text-decoration:none;}
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="left">
+      <div class="pill"><strong>Lisa Eshun‑Wilson</strong> <span class="small">/ CV / Biosketch</span></div>
+      <a class="pill" href="EshunWilson-BioSketch.pdf" title="Download PDF">
+        <svg class="pdficon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M6 2h8l4 4v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M14 2v6h6" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M7 16h10" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M7 19h7" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M7 13h10" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+        <span><strong>PDF</strong> CV</span>
+      </a>
+    </div>
+    <div class="spacer"></div>
+    <div class="pill small">Printable • PDF‑like layout</div>
+  </div>
+
+  <main class="page" role="main" aria-label="NIH Applicant Biographical Sketch">
+    <div class="center small">OMB No. 0925‑0001 and 0925‑0002 (Rev. 09/17 Approved Through 03/31/2020)</div>
+    <div class="center h1">APPLICANT BIOGRAPHICAL SKETCH</div>
+    <div class="rule"></div>
+
+    <div class="kv"><div class="k">NAME:</div><div class="v">Eshun‑Wilson, Lisa</div></div>
+    <div class="kv"><div class="k">eRA COMMONS USERNAME (credential, e.g., agency login):</div><div class="v">lisaeshunwilson</div></div>
+    <div class="kv"><div class="k">POSITION TITLE:</div><div class="v">Postdoctoral Fellow</div></div>
+
+    <div class="section-title">EDUCATION/TRAINING</div>
+    <table aria-label="Education and Training">
+      <thead>
+        <tr>
+          <th>INSTITUTION AND LOCATION</th>
+          <th>DEGREE<br><span class="small">(if applicable)</span></th>
+          <th class="nowrap">Completion Date<br><span class="small">MM/YYYY</span></th>
+          <th>FIELD OF STUDY</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Grinnell College</td>
+          <td>B.A.</td>
+          <td class="nowrap">05/2014</td>
+          <td>Biological Chemistry</td>
+        </tr>
+        <tr>
+          <td>The National Institutes of Health</td>
+          <td>Postbaccalaureate</td>
+          <td class="nowrap">08/2015</td>
+          <td>Membrane Biology</td>
+        </tr>
+        <tr>
+          <td>University of California, Berkeley</td>
+          <td>Ph.D.</td>
+          <td class="nowrap">12/2019</td>
+          <td>Molecular Cell Biology</td>
+        </tr>
+        <tr>
+          <td>The Scripps Research Institute</td>
+          <td>Postdoctoral</td>
+          <td class="nowrap"></td>
+          <td>Integrative Computational and Structural Biology</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="section-title">A. Personal Statement</div>
+    <p class="para">
+      For my doctoral thesis, I chose to tackle a long‑standing controversy: whether the relationship between the
+      chemical modification αK40 acetylation and MT stability was causative or correlative. Interestingly, αK40
+      acetylation is the only post‑translational modification (PTM) to occur on the inside of MTs and mark long‑lived,
+      stable MT populations, including those that compose the cytoskeleton of a cancerous cell. Moreover, the
+      misregulation of αK40 acetylation is linked to axonal transport defects associated with Huntington’s disease,
+      Charcot–Marie–Tooth disease, amyotrophic lateral sclerosis, Parkinson’s disease, and the growth of
+      “microtentacles” that promote metastatic breast cancer. To elucidate the potential causative effects of this
+      modification, I applied a reductionist approach to tease out the direct effects of this modification on MT structure
+      by using cryo‑electron microscopy (cryo‑EM). By visualizing purely acetylated and deacetylated MTs, I showed
+      that acetylation changes the conformational ensemble of the αK40 loop in α‑tubulin, or in other words it changes
+      the rhythm of the modification site of this PTM and may serve as an evolutionarily conserved ‘electrostatic switch’
+      to regulate MT stability. This work was launched in close collaboration with Drs. James Fraser at UCSF and Max
+      Bonomi at the University of Cambridge.
+    </p>
+    <p class="para">
+      Similar to PTMs, therapeutic agents can affect MT structure and stability as well. Taxol, a major breast cancer
+      chemotherapy agent, can block the cell cycle in its G1 or M phases by stabilizing MTs and limiting MT critical
+      dynamics. Surprisingly, lankacidins (LCs) were shown to have both in vivo antitumor activity in multiple cancer
+      cell lines and antimicrobial activity against Gram‑positive pathogens. We observed that the effects of LCs were
+      minimal and focused on uncovering the structural basis of their antimicrobial activity and resistance. I resolved
+      a 2.8 Å structure of the LC‑ribosome complex. I discovered that LC forms an elaborate hydrophobic network
+      within the peptidyl transferase center (PTC) of the exit (E) site of the ribosome which is essential for its inhibitory
+      effect on translation and common for this class of macrolides, consistent with previous research. Moreover, we
+      show that the ring closure is important for the inhibitory effect of LC on harmful bacteria. Previous evidence
+      supports that when the macrocyclic ring is hydrogenated its ring conformation changes and its inhibitory effects
+      are reduced. Thus, bacteria may resist LC over time by manipulating the identity of the nucleotides that compose
+      the hydrophobic network, so as not to lethally affect ribosome function, but weaken LC binding to the PTC site.
+      This work was done in collaboration with Drs. James Fraser and Ian Seiple at UCSF.
+    </p>
+    <p class="para">
+      Now, as a postdoctoral fellow in the lab of Dr. Gabriel Lander, in close collaboration with Dr. Luke Wiseman,
+      at the Scripps Research Institute, I am thrilled to study the swiss‑army knife of mitochondrial quality‑control
+      machines YME1L. Located in the inner membrane of the mitochondria, YME1L is an ATP‑dependent protease
+      that can cleave, disentangle, and recycle multiple substrates, but how it distinguishes these different targets and
+      adapts its machinery to uniquely process each one remains a completely open question. I will use cryo‑electron
+      tomography and in vivo microscopy studies to visualize YME1L with a range of substrates and unlock the
+      mechanism behind its impressive decision‑making skills, and fundamentally, decipher the “proteolytic code”
+      necessary to maintain mitochondrial proteostasis.
+    </p>
+
+    <div class="section-title">Selected Publications (from this biosketch)</div>
+    <ol class="bullets" style="list-style:decimal; margin-left:18px;">
+      <li>
+        Eshun‑Wilson L, Zhang R, Portran D, Toso D, Nachury M, Bonomi M, Fraser JS, Nogales E.
+        <em>Structural insights into the effects of α‑tubulin acetylation on microtubule structure and properties.</em>
+        Proceedings of the National Academy of Sciences (2019) 116 (21) 10366‑10371.
+      </li>
+    </ol>
+
+    <div class="section-title">B. Positions and Honors</div>
+
+    <div class="section-title" style="font-weight:700; margin-top:6px;">Positions and Employment</div>
+    <div class="para indent">2014–2015 &nbsp;Intramural Research Training Award Postbaccalaureate Fellow, Membrane Biology Section, National Heart, Lung and Blood Institute, Bethesda, MD</div>
+    <div class="para indent">2020–Present &nbsp;Postdoctoral Fellow, Department of Integrative Computational and Structural Biology, Scripps Research Institute, La Jolla, CA</div>
+
+    <div class="section-title" style="font-weight:700; margin-top:8px;">Other Experience and Professional Memberships</div>
+    <div class="para indent">2020–Present &nbsp;Member, Biophysical Society</div>
+    <div class="para indent">2015–Present &nbsp;National Society for Leadership and Success</div>
+    <div class="para indent">2014–Present &nbsp;Member, American Society of Cell Biology</div>
+    <div class="para indent">2014–Present &nbsp;Member, American Society of Biochemistry and Molecular Biology</div>
+
+    <div class="section-title" style="font-weight:700; margin-top:8px;">Honors</div>
+    <div class="para indent">2019 &nbsp;Carl Storm Underrepresented Minority Fellowship (CSURM), Gordon Research Conference</div>
+    <div class="para indent">2019 &nbsp;Summer Conference Travel Grant, UC Berkeley Graduate Division</div>
+    <div class="para indent">2019 &nbsp;Chancellor’s Award for Public Service Nominee</div>
+    <div class="para indent">2019 &nbsp;Dean of Students Outstanding Leadership Award Nominee</div>
+    <div class="para indent">2019 &nbsp;RISE Award Winner, Gender Resource Center</div>
+    <div class="para indent">2018 &nbsp;MCB Equity &amp; Inclusion Award</div>
+    <div class="para indent">2016 &nbsp;National Science Foundation Graduate Fellowship</div>
+    <div class="para indent">2016 &nbsp;Ford Foundation Predoctoral Fellowship, National Academy of Sciences</div>
+    <div class="para indent">2014 &nbsp;Travel Award, King Abdullah University of Science and Technology</div>
+    <div class="para indent">2014 &nbsp;John. Y. Young Service Memorial Scholarship</div>
+    <div class="para indent">2014 &nbsp;Grinnell Ladies Education Society Scholarship</div>
+    <div class="para indent">2013 &nbsp;Howard Hughes Medical Institute Summer Fellowship, CalTech</div>
+    <div class="para indent">2013 &nbsp;POSSE Foundation Summer Leadership Award</div>
+    <div class="para indent">2012 &nbsp;Amgen Scholars Summer Fellowship, UCSF</div>
+    <div class="para indent">2010 &nbsp;Fulfillment Fund Higher Education Scholarship</div>
+    <div class="para indent">2010 &nbsp;POSSE Foundation Undergraduate Full Scholarship, Grinnell College</div>
+
+    <div class="section-title">C. Contribution to Science</div>
+    <p class="para">
+      <strong>1.</strong> My first publications focused on the role post‑translational modifications, enzymes, and therapeutic agents
+      have on microtubule structure, dynamics and regulations, due the important role of these cytoskeletal
+      polymers in cancer, neurogenerative disease and aneuploidy. I was interested in how unique modulators
+      could alter the conformation and plasticity of the microtubule lattice. For instance, the structure and
+      mechanics of microtubules are not only dependent on the modification state of each tubulin, but also on
+      tubulin isotypes, interacting drugs, or MT‑binding partners, all of which can cause changes in tubulin
+      structure and subunit packing within the MT and affect local mechanical strain and other physical
+      properties of the lattice. I started to appreciate the MT as an allosteric macromolecular machine that
+      interprets multifaceted inputs and reacts by transforming its rigidity and mechanical resistance. This
+      appreciation launched an exploratory project into the complex world of chemical modifications, specifically
+      on acetylation, the main post‑translational modification to occur on the inside of the microtubule, and
+      lankacidins, a unique class of antibiotics. I served as the lead author in all of these studies.
+    </p>
+
+    <div class="para indent">
+      <strong>a.</strong> Eshun‑Wilson L, Zhang R, Portran D, Toso D, Nachury M, Bonomi M, Fraser JS, Nogales E.
+      <em>Structural insights into the effects of α‑tubulin acetylation on microtubule structure and properties.</em>
+      Proceedings of the National Academy of Sciences (2019) 116 (21) 10366‑10371.
+    </div>
+    <div class="para indent">
+      <strong>b.</strong> Eshun‑Wilson L., Pellegrino, J. Ward, F., Toso, D., Brilot, A., Nogales, E., Seiple, I., Fraser, J.
+      <em>CryoEM and synthetic studies reveal that ring closure of lankacidin, and related metabolites mediates antibiotic activity.</em>
+      Manuscript in preparation.
+    </div>
+
+    <div class="footnote">
+      Tip: You can print this page to PDF (File → Print → “Save as PDF”) to preserve the PDF‑like layout.
+    </div>
+  </main>
+</body>
+</html>
