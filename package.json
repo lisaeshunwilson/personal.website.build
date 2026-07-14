@@ -1,0 +1,10 @@
+{
+  "name": "personal-website-build",
+  "private": true,
+  "scripts": {
+    "generate-cv-pdf": "node generate-cv-pdf.js"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^24.43.1"
+  }
+}

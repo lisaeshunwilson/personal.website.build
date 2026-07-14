@@ -1,3 +1,4 @@
 movies/
 *.mov
 *.mp4
+node_modules/
